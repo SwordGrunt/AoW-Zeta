@@ -84,9 +84,84 @@ map aow12 "Missile Site" {
 }
 
 map aow13 "Strange World" {
+	next = "aow14"
 	music = "d_aow13"
 	sky1 = "softsky"
 	next = "aow01"
+}
+
+map aow14 "Mining Site" {
+	next = "aow15"
+	sky1 = "sky1"
+	music = "d_aow14"
+}
+
+map aow15 "Disk Defrag" {
+	next = "aow16"
+	sky1 = "stsky5"
+	music = "d_aow15"
+}
+
+map aow16 "Happy Fragging" {
+	next = "aow17"
+	sky1 = "stsky14"
+	music = "d_aow11"
+}
+
+map aow17 "Mining Camp 2" {
+	next = "aow18"
+	sky1 = "stsky5"
+	music = "d_aow02"
+}
+
+map aow18 "Surface Tension Reloaded" {
+	next = "aow19"
+	music = "d_aow18"
+}
+
+map aow19 "Aow Zone"
+{
+	next = "aow19"
+	sky1 = "skyfog"
+	music = "d_aow18"
+}
+
+map aow20 "Immortal Kombat" {
+	next = "aow70"
+	music = "d_aow20"
+	sky1 = "stars"
+}
+
+// maps 70+ are in need of major changes and may not be kept in
+
+map aow70 "Space Camp" {
+	next = "aow71"
+	sky1 = "stars"
+	music = "d_aow70"
+}
+
+map aow71 "Unending Pain" {
+	next = "aow72"
+	music = "d_aow71"
+	sky1 = "stsky3"
+}
+
+map aow72 "Hell's March" {
+	next = "aow73"
+	sky1 = "stsky5"
+	music = "d_aow72"
+}
+
+map aow73 "All Out War" {
+	next = "aow74"
+	sky1 = "stsky14"
+	music = "d_aow16"
+}
+
+map AOW74 "Defunct Commission" {
+	next = "aow01"
+	sky1 = "skyfog0", 0.1
+	music = "d_aow19"
 }
 
 map mirror "Mirror" 
